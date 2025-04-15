@@ -1,12 +1,16 @@
 ---
 import Polaroid from "@/components/Polaroid.astro";
+import calcScreenWidth from "@/lib/CalcScreenWidth";
 
 const myimg = "/me.jpg";
+
+// Initialize the screen width calc function
+//calcScreenWidth.initialize();
 
 ---
 <section id="about" class="flex pt-40 pb-24 gap-16 justify-between px-16 sm:flex-col sm:px-4">
     <div class="sm:ml-[-1.75rem]">
-        <Polaroid imgsrc={myimg} alt="Pratik Kuril" width="20rem" tilt="-4deg" caption="Me acting all uni core"/>
+        <Polaroid imgsrc={myimg} alt="Pratik Kuril" width='20rem' tilt="-4deg" caption="Me acting all uni core"/>
     </div>
     <div class="ml-14 sm:ml-0">
         <p class="w-[80%] leading-8 font-medium text-xl sm:w-[95%] sm:text-lg">Hi, I’m Pratik Kuril, a creative developer passionate about designing stunning interfaces, seamless user experiences, and scalable backend solutions. I combine technical precision with creativity to craft impactful digital products. <br><br>
