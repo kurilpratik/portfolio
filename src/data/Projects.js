@@ -4,7 +4,7 @@ const ProjectData = [
     description:
       "Model United Nations, as a concept, for me has always been associated with challenging thoughts and proposing innovative solutions to complex global problems. GIMUN was built to represent and act as a single source of information for the first of its kind campus event.",
     imgsrc: "/gimun.png",
-    link: "https://gimun.in",
+    link: "https://gimun24.netlify.app",
   },
   {
     title: " AiRIA- AI Powered Web Accessibility Tool",
@@ -25,7 +25,7 @@ const ProjectData = [
     description:
       "Explore and engage with students of the college and spark interesting and productive conversations. This is an effort (a big one) towards building a vibrant community of forward thinkers by recognizing talent, boosting collaboration and generating true college culture.",
     imgsrc: "/campusone.png",
-    link: "https://campusone.live",
+    link: "https://campusonecs.netlify.app",
   },
 ];
 
