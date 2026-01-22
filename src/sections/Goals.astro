@@ -6,15 +6,14 @@ import ListItems from '../data/ListItems';
     <div class="flex sm:justify-center pl-24 sm:pl-0">
         {
             ListItems.map((item) => (
-            <section class="h-[15rem] w-[16rem] border-0 rounded-xl" style={`transform: rotate(${item.tilt})`} id="card">
-                <div class="" style={`background-color: ${item.color}`}>
+            <section class="goal-card h-[15rem] w-[16rem] border-0 rounded-xl bg-white shadow-sm overflow-hidden" style={`transform: rotate(${item.tilt})`}>
+                <div style={`background-color: ${item.color}`}>
                     <h3 class="font-semibold p-2 text-center" style={`color: ${item.darkerColor}`}>{item.title}</h3>
                 </div>
-                <ul class="p-4">
+                <ul class="p-4 list-none m-0">
                     {
                         item.arr.map((i) => (
-                            <li class="mb-2 after:content-[] after:h-[1px] after:w-[10rem] after:bg-[#E5E5E5] after:absolute after:bottom-0 after:left-0">{i}</li>
-                            // <div class="content-[] h-[1px] w-[10rem] bg-[#E5E5E5] absolute bottom-0 left-0"></div>
+                            <li class="pb-3 mb-3 border-b border-gray-200 last:mb-0 last:pb-0 last:border-b-0">{i}</li>
                         ))
                     }
                 </ul>
@@ -31,10 +30,10 @@ import ListItems from '../data/ListItems';
     .caption {
         font-family: "Playwrite BE VLG", serif;
         font-optical-sizing: auto;
-        font-weight: <weight>;
+        font-weight: 400;
         font-style: normal;
     }
-    #card{
+    .goal-card{
         box-shadow: rgba(49, 49, 49, 0.15) -1.95px -1.95px 2.6px;
     }
 </style>
