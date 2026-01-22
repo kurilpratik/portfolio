@@ -1,5 +1,19 @@
 const ProjectData = [
   {
+    title: "HireWise AI - Job Resume intelligence Platform",
+    description:
+      "HireWise is an AI-powered hiring platform that generates Job Description and required skills based on Job title using Generative AI, and matches resumes based on skills using a ranking algorithm. There's also resume upload with chunking and vectorization to enable RAG based LLM chat with the pdfs with memory using mem0 in an event driven architecture.",
+    imgsrc: "/hirewise.png",
+    link: "https://hirewise-d08e.onrender.com/",
+  },
+  {
+    title: "SBAC Law Website",
+    description:
+      "website for SBAC Law — a boutique law firm focused on disputes, special situations, and insolvency. Founded in 2023 by Spandan and Satyajit (batchmates from National Law School of India University, Bengaluru), the brief was clear: build a digital presence that reflects precision, credibility, and modern thinking—without relying on tired law-firm templates.",
+    imgsrc: "/sbac.png",
+    link: "https://sbaclaw.com",
+  },
+  {
     title: "Galgotias International Model United Nations Website",
     description:
       "Model United Nations, as a concept, for me has always been associated with challenging thoughts and proposing innovative solutions to complex global problems. GIMUN was built to represent and act as a single source of information for the first of its kind campus event.",
