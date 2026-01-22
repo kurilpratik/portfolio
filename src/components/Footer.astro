@@ -2,7 +2,7 @@
 import SocialIcon from './SocialIcon.astro';
 import SocialLinks from '../data/SocialLinks';
 ---
-<div class="overflow-scroll">
+<div class="overflow-scroll hide-scrollbar">
     <footer id="contact" class="w-[100%] h-auto border border-gray-300 rounded-xl p-16 mb-16 bg-gradient-to-r from-indigo-50 to-yellow-50 my-10 sm:p-10">
         <h1 class="text-3xl font-semibold w-[55%] pt-20 leading-10 sm:w-[90%] sm:leading-[2.8rem]">
             Let's get in touch and build something great together ✨
@@ -29,4 +29,14 @@ import SocialLinks from '../data/SocialLinks';
         </p>
     </footer>
 </div>
+
+<style>
+:global(.hide-scrollbar) {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+:global(.hide-scrollbar::-webkit-scrollbar) {
+    display: none; /* Chrome, Safari, Opera */
+}
+</style>
 
